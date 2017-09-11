@@ -1,0 +1,61 @@
+.main-content{
+	max-width: $max-width; 
+}
+
+.main-body{
+	width: 100%;
+	display: flex;
+//	justify-content: space-between;
+	flex-flow: wrap;
+	flex-direction: column;
+	align-items: center;
+	@media screen and (min-width: 1200px){
+			
+	}
+}
+
+.card{
+	background: $primary-color-text;
+//	padding: 10px 10px;
+	margin-bottom: 25px;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 3px 2px rgba(#000, .3);
+	
+	@media screen and (min-width: 670px){
+		width: 80%;
+		margin-bottom: 30px;
+	}
+	@media screen and (min-width: 1000px){
+	
+	}
+	@media screen and (min-width: 1200px){
+
+	}
+	@media screen and (min-width: 1280px){
+		width: 70%;
+		margin-bottom: 35px;
+	}
+	
+	
+	&-image{
+		
+		
+	}
+	
+	&-description{
+		text-align: center;
+		color: $divider-color;
+		font-size: 13px;
+		padding: 1px 6px;
+		
+		@media screen and (min-width: 670px){
+			font-size: 16px;
+		}
+		@media screen and (min-width: 1200px){
+			font-size: 18px;
+		}
+	}
+}

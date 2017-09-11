@@ -1,0 +1,21 @@
+.main-header{
+	background: #444;
+	padding: 10px;
+	display: flex;
+	color: #FFF;
+	margin-bottom: 30px;
+	justify-content: center;
+	
+	@media screen and (min-width: 480px){
+		padding: 15px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		
+	}
+
+	&__tittle{
+		font-size: 20px;
+		
+	}
+}
